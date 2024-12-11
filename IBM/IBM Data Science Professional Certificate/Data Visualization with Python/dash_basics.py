@@ -26,7 +26,6 @@ app.layout = html.Div(children=[ html.H1('Airline Performance Dashboard',style={
 
 @app.callback(Output(component_id='line-plot', component_property='figure'),
                Input(component_id='input-year', component_property='value'))
-
 def get_graph(entered_year):
     df =  airline_data[airline_data['Year']==int(entered_year)]
     
