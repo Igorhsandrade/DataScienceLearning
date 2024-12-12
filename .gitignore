@@ -4,3 +4,4 @@
 **/raw/**
 *.csv
 **/Plotly chrts.ipynb
+*.db
